@@ -8,7 +8,7 @@
 		<meta name="author" content="">
 		<title>21 and Older</title>
         <link href="css/style.css" rel="stylesheet">
-        <script src="js/age-gate.js"></script>
+        <script type="text/javascript" src="js/age-gate.js"></script>
     </head>
 
     <header>
@@ -16,13 +16,12 @@
             <div class="popup1" id="popup1">
                 <h1>You must be over 21 years old to visit this site</h1>
                 <h2>Please, verify your age.</h2> 
-                    <button type="submit" class="btn" id="yes" onclick="closeAgegate();">Yes, I am over 21 - ENTER</a>
-                        <!-- create_cookie('form_submitted', 'true', 1); -->
-                    <button type="submit" class="btn" id="no" onclick="openPopup2(); closePopup1()">No, I am under 21 - LEAVE</a>
+                    <button type="submit" class="btn" id="yes" onclick="closeAgegate(); create_cookie('form_submitted', 'true', 1);">Yes, I am over 21 - ENTER</a>
+                    <button type="submit" class="btn" id="no" onclick="openFail(); closeAgegate();">No, I am under 21 - LEAVE</a>
             </div>
         </section>
 
-        <section class="fail">
+        <section class="fail hide">
             <div class="popup2">
                 <h1>I'm Sorry, you are not old enough to visit this site.</h1>
                 <h2>Please, exit.</h2>
@@ -30,36 +29,23 @@
         </section>
 
         <div class="background">
-            <img src="images/desk.jpg" alt="desk with computer" style="width:100%;">
+            <img className="img" src="images/wine.jpg" alt="full wine glasses">
         </div>
-    
     </header>
 
-
-<script>
+<!-- <script> HAS BEEN MOVED TO JS FOLDER `Let` has been changed to `Var`
 let ageSection = document.querySelector(".agegate");
 
 function closeAgegate() {
     ageSection.style.display = "none";
 }
 
-    // let ageGate = document.getElementById("agegate");
-    // let button = document.getElementsByClassName("btn");
-    // function closeAgegate(){
-    //     ageGate.classList.remove("agegate");
-    // }
-    // function closeBtn(){
-    //     button.classList.remove("btn");
-    // }
+let failSection = document.querySelector(".fail");
 
-    // let popUp1 = document.getElementById("popup1");
-    // function closePopup1(){
-    //     popUp1.classList.remove("popup1");
-    // }
-
-
-</script>
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script> -->
+function openFail() {
+    failSection.style.display = "block";
+}
+</script> -->
+<script type="text/javascript" src="js/age-gate.js"></script>
 </body>
 </html>
