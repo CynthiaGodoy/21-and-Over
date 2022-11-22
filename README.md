@@ -8,4 +8,5 @@ Google will begin to ban 3rd party cookies in 2023 learn more straight from the 
 
 **Recommend not using window.prompt since alone since it is unable to be styled using CSS.
 
-## Screenshot
+## Demo Video
+[Age-Gate.webm](https://user-images.githubusercontent.com/99221047/203401593-7fe0cbc7-60d5-430d-ab0c-54151e119c40.webm)
