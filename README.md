@@ -9,7 +9,7 @@ An **Age Verification Popup (Age-Gate)** in which a user must indicate that they
 
 2. [Window.prompt](https://www.w3schools.com/jsref/met_win_prompt.asp) cannot be styled using CSS so it was not used in this project.
 
-3. Using [Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) is a great way to take this a step further if you wish to have users enter their exact birthday or age using a <form>.
+3. Using [Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) is a great way to take this a step further if you wish to have users enter their exact birthday or age using a form.
 
 ## Demo Video
 [Age-Gate.webm](https://user-images.githubusercontent.com/99221047/203401593-7fe0cbc7-60d5-430d-ab0c-54151e119c40.webm)
