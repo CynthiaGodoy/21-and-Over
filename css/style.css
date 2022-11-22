@@ -1,0 +1,90 @@
+/* Backgound image is to represent html website must have license agreement with adobe*/
+.background {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Age-Gate--------------------------------- */
+.agegate {
+    position: fixed;
+    z-index: 2;
+    top:0; 
+    left:0;
+    bottom:0; 
+    right:0;
+    background-color: black; 
+    opacity: 89%;  
+    }
+
+/* .close-agegate {
+    opacity: 0%;  
+    } */
+
+.popup1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    background: whitesmoke;
+    padding: 12px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.btn {
+    color: white;
+    background: chocolate;
+    border-style: none;
+    padding: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    color: white;
+    background: turquoise;
+}
+
+/* Fail--------------------------------------- */
+/* .fail {
+    position: fixed;
+    z-index: 2;
+    top:0; 
+    left:0;
+    bottom:0; 
+    right:0;
+    background-color: black; 
+    opacity: 89%;  
+    } */
+
+.popup2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    background: whitesmoke;
+    padding: 12px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    opacity: 90%;
+}

@@ -12,10 +12,54 @@
     </head>
 
     <header>
-        <div class="container"></div>
+        <section class="agegate">
+            <div class="popup1" id="popup1">
+                <h1>You must be over 21 years old to visit this site</h1>
+                <h2>Please, verify your age.</h2> 
+                    <button type="submit" class="btn" id="yes" onclick="closeAgegate();">Yes, I am over 21 - ENTER</a>
+                        <!-- create_cookie('form_submitted', 'true', 1); -->
+                    <button type="submit" class="btn" id="no" onclick="openPopup2(); closePopup1()">No, I am under 21 - LEAVE</a>
+            </div>
+        </section>
+
+        <section class="fail">
+            <div class="popup2">
+                <h1>I'm Sorry, you are not old enough to visit this site.</h1>
+                <h2>Please, exit.</h2>
+            </div>
+        </section>
+
+        <div class="background">
+            <img src="images/desk.jpg" alt="desk with computer" style="width:100%;">
+        </div>
+    
     </header>
 
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
+
+<script>
+let ageSection = document.querySelector(".agegate");
+
+function closeAgegate() {
+    ageSection.style.display = "none";
+}
+
+    // let ageGate = document.getElementById("agegate");
+    // let button = document.getElementsByClassName("btn");
+    // function closeAgegate(){
+    //     ageGate.classList.remove("agegate");
+    // }
+    // function closeBtn(){
+    //     button.classList.remove("btn");
+    // }
+
+    // let popUp1 = document.getElementById("popup1");
+    // function closePopup1(){
+    //     popUp1.classList.remove("popup1");
+    // }
+
+
+</script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script> -->
 </body>
 </html>
