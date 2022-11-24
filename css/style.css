@@ -11,8 +11,8 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    margin-bottom: 0px !important;
-    vertical-align: bottom;
+    /* margin-bottom: 0px !important; */
+    /* vertical-align: bottom; */
 }
 
 h1 {
@@ -34,7 +34,7 @@ h2 {
     bottom:0; 
     right:0;
     background-color: black; 
-    opacity: 89%;  
+    background:rgba(0, 0, 0, 0.8);
     }
 
 .popup1 {
@@ -43,11 +43,11 @@ h2 {
     top: 50%;
     left: 50%;
     text-align: center;
-    background: whitesmoke;
+    background:rgba(255, 255, 255, 255);
+    /* opacity: 100%; */
     padding: 12px;
     padding-bottom: 20px;
     border-radius: 10px;
-    opacity: 98%;
 }
 
 .btn {
@@ -78,8 +78,7 @@ h2 {
     left:0;
     bottom:0; 
     right:0;
-    background-color: black; 
-    opacity: 89%;  
+    background:rgba(0, 0, 0, 0.8);
     }
 
 .popup2 {
@@ -88,14 +87,12 @@ h2 {
     top: 50%;
     left: 50%;
     text-align: center;
-    background: whitesmoke;
     padding: 12px;
     padding-bottom: 20px;
     border-radius: 10px;
-    opacity: 90%;
+    background:rgba(255, 255, 255, 255);
 }
 
 .hide {
     display: none;
-   
 }
