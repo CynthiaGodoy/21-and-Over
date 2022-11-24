@@ -12,4 +12,4 @@ An **Age Verification Popup (Age-Gate)** in which a user must indicate that they
 3. [Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) are a great way to take this a step further if you wish to have users enter their exact birthday or age using a form.
 
 ## Demo Video
-[Age-Gate.webm](https://user-images.githubusercontent.com/99221047/203401593-7fe0cbc7-60d5-430d-ab0c-54151e119c40.webm)
+[Age Gate.webm](https://user-images.githubusercontent.com/99221047/203857339-7304e24f-359f-450e-9523-bb148610e932.webm)
